@@ -1,0 +1,608 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Prathmesh Satpute | Digital Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&family=Montserrat:wght@700;800;900&display=swap" rel="stylesheet">
+    <!-- FontAwesome Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+    <!-- AOS Animation Library -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+</head>
+<body>
+    <!-- Preloader -->
+    <div class="preloader">
+        <div class="loader"></div>
+    </div>
+
+    <!-- Cursor -->
+    <div class="cursor"></div>
+    <div class="cursor-follower"></div>
+
+    <!-- Background Particles -->
+    <div id="particles-js"></div>
+
+    <!-- Header & Navigation -->
+    <header>
+        <div class="logo" data-aos="fade-down">
+            <span>P</span>ortfolio
+        </div>
+        <nav>
+            <div class="nav-toggle" id="nav-toggle">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+            <ul class="nav-menu" id="nav-menu">
+                <li><a href="#home" class="nav-link active">Home</a></li>
+                <li><a href="#about" class="nav-link">About</a></li>
+                <li><a href="#skills" class="nav-link">Skills</a></li>
+                <li><a href="#experience" class="nav-link">Experience</a></li>
+                <li><a href="#education" class="nav-link">Education</a></li>
+                <li><a href="#projects" class="nav-link">Projects</a></li>
+                <li><a href="#contact" class="nav-link">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Home Section -->
+    <section id="home" class="home">
+        <div class="home-content">
+            <div class="text-content" data-aos="fade-right" data-aos-delay="200">
+                <h4>Hello, I'm</h4>
+                <h1 class="name">Prathmesh <span>Satpute</span></h1>
+                <h3 class="typing">AI/ML Enthusiast</h3>
+                <p>Passionate about building intelligent solutions with a love for technology and innovation.</p>
+                <div class="home-buttons">
+                    <a href="#contact" class="btn primary-btn">Contact Me</a>
+                    <a href="assets/Prathmesh_Resume.pdf" download="Prathmesh_Resume.pdf" class="btn secondary-btn">Download CV</a>
+                </div>
+                <div class="social-icons">
+                    <a href="https://github.com/Prathmesh5332" target="_blank" class="social-icon"><i class="fab fa-github"></i></a>
+                    <a href="https://linkedin.com/" target="_blank" class="social-icon"><i class="fab fa-linkedin-in"></i></a>
+                    <a href="mailto:prathmesh@example.com" class="social-icon"><i class="fas fa-envelope"></i></a>
+                    <a href="https://twitter.com/" target="_blank" class="social-icon"><i class="fab fa-twitter"></i></a>
+                </div>
+            </div>
+            <div class="image-content" data-aos="fade-left" data-aos-delay="400">
+                <div class="img-box">
+                    <img src="images/profile.jpeg" alt="Prathmesh Satpute" class="home-img">
+                    <div class="shape shape-1"></div>
+                    <div class="shape shape-2"></div>
+                </div>
+            </div>
+        </div>
+        <a href="#about" class="scroll-down">
+            <i class="fas fa-chevron-down"></i>
+            <span>Scroll Down</span>
+        </a>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about section">
+        <div class="section-title" data-aos="fade-up">
+            <h2>About <span>Me</span></h2>
+            <span class="title-bg">About</span>
+        </div>
+        <div class="about-content">
+            <div class="about-text" data-aos="fade-left" data-aos-delay="300">
+                <h3>I'm Prathmesh Satpute</h3>
+                <p>I am an AI/ML enthusiast with a passion for developing intelligent solutions that solve real-world problems. My journey in technology began with a curiosity about how machines can learn and adapt, which led me to pursue a career in artificial intelligence and machine learning.</p>
+                <p>With a strong foundation in Python programming and various ML frameworks, I strive to create innovative applications that leverage the power of AI to make a positive impact. I'm constantly learning and exploring new technologies to expand my skill set.</p>
+                <div class="about-info">
+                    <div class="info-item">
+                        <span>Name:</span>
+                        <p>Prathmesh Satpute</p>
+                    </div>
+                    <div class="info-item">
+                        <span>Email:</span>
+                        <p>prathmesh@example.com</p>
+                    </div>
+                    <div class="info-item">
+                        <span>Phone:</span>
+                        <p>+91 7774966903</p>
+                    </div>
+                    <div class="info-item">
+                        <span>Location:</span>
+                        <p>Pune, India</p>
+                    </div>
+                </div>
+                <a href="assets/Prathmesh_Resume.pdf" download="Prathmesh_Resume.pdf" class="btn primary-btn">Download CV</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills" class="skills section">
+        <div class="section-title" data-aos="fade-up">
+            <h2>My <span>Skills</span></h2>
+            <span class="title-bg">Skills</span>
+        </div>
+        <div class="skills-content">
+            <div class="skills-text" data-aos="fade-right" data-aos-delay="200">
+                <h3>My Technical Expertise</h3>
+                <p>I've developed a diverse set of skills throughout my journey in technology. My primary focus has been on AI/ML technologies, but I've also gained experience in web development and software engineering.</p>
+                <p>I'm constantly learning and adding new skills to my repertoire to stay at the forefront of technological advancements.</p>
+            </div>
+            <div class="skills-cards" data-aos="fade-left" data-aos-delay="300">
+                <div class="skill-card" data-tilt>
+                    <div class="skill-icon">
+                        <i class="fab fa-python"></i>
+                    </div>
+                    <h3>Python</h3>
+                    <div class="skill-progress">
+                        <div class="progress-bar" style="width: 90%"></div>
+                        <span>90%</span>
+                    </div>
+                </div>
+                <div class="skill-card" data-tilt>
+                    <div class="skill-icon">
+                        <i class="fas fa-brain"></i>
+                    </div>
+                    <h3>AI/ML</h3>
+                    <div class="skill-progress">
+                        <div class="progress-bar" style="width: 85%"></div>
+                        <span>85%</span>
+                    </div>
+                </div>
+                <div class="skill-card" data-tilt>
+                    <div class="skill-icon">
+                        <i class="fas fa-code"></i>
+                    </div>
+                    <h3>.NET</h3>
+                    <div class="skill-progress">
+                        <div class="progress-bar" style="width: 75%"></div>
+                        <span>75%</span>
+                    </div>
+                </div>
+                <div class="skill-card" data-tilt>
+                    <div class="skill-icon">
+                        <i class="fab fa-js"></i>
+                    </div>
+                    <h3>JavaScript</h3>
+                    <div class="skill-progress">
+                        <div class="progress-bar" style="width: 80%"></div>
+                        <span>80%</span>
+                    </div>
+                </div>
+                <div class="skill-card" data-tilt>
+                    <div class="skill-icon">
+                        <i class="fab fa-html5"></i>
+                    </div>
+                    <h3>HTML/CSS</h3>
+                    <div class="skill-progress">
+                        <div class="progress-bar" style="width: 85%"></div>
+                        <span>85%</span>
+                    </div>
+                </div>
+                <div class="skill-card" data-tilt>
+                    <div class="skill-icon">
+                        <i class="fas fa-globe"></i>
+                    </div>
+                    <h3>Web Dev</h3>
+                    <div class="skill-progress">
+                        <div class="progress-bar" style="width: 80%"></div>
+                        <span>80%</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Experience Section -->
+    <section id="experience" class="experience section">
+        <div class="section-title" data-aos="fade-up">
+            <h2>Work <span>Experience</span></h2>
+            <span class="title-bg">Experience</span>
+        </div>
+        <div class="timeline">
+            <div class="timeline-item" data-aos="fade-right" data-aos-delay="200">
+                <div class="timeline-icon">
+                    <i class="fas fa-briefcase"></i>
+                </div>
+                <div class="timeline-content">
+                    <span class="date">Jan 2025 - Present</span>
+                    <h3>AI/ML Intern</h3>
+                    <h4>Hive Tech, Pune</h4>
+                    <p>Currently working on AI models which help combine AI technology with robotics, focusing on hand movements and gesture recognition. Implementing deep learning algorithms to improve robotic control systems.</p>
+                    <div class="timeline-tags">
+                        <span>AI</span>
+                        <span>Robotics</span>
+                        <span>Deep Learning</span>
+                    </div>
+                </div>
+            </div>
+            <div class="timeline-item" data-aos="fade-left" data-aos-delay="300">
+                <div class="timeline-icon">
+                    <i class="fas fa-briefcase"></i>
+                </div>
+                <div class="timeline-content">
+                    <span class="date">June 2024 - August 2024</span>
+                    <h3>Machine Learning Researcher</h3>
+                    <h4>Soft The Next, Pune</h4>
+                    <p>Worked on the Traffic Density Estimation project to analyze and predict traffic patterns in specific areas. Developed and implemented computer vision algorithms to process traffic camera feeds and extract meaningful data.</p>
+                    <div class="timeline-tags">
+                        <span>Machine Learning</span>
+                        <span>Computer Vision</span>
+                        <span>Data Analysis</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Education Section -->
+    <section id="education" class="education section">
+        <div class="section-title" data-aos="fade-up">
+            <h2>My <span>Education</span></h2>
+            <span class="title-bg">Education</span>
+        </div>
+        <div class="education-cards">
+            <div class="edu-card" data-aos="flip-left" data-aos-delay="200" data-tilt>
+                <div class="edu-icon">
+                    <i class="fas fa-university"></i>
+                </div>
+                <h3>MIT Academy Of Engineering</h3>
+                <p class="edu-degree">Bachelor of Technology</p>
+                <p class="edu-field">Computer Science & Engineering</p>
+                <p class="edu-year">2021 - 2025</p>
+                <div class="edu-details">
+                    <p>Specializing in Artificial Intelligence and Machine Learning</p>
+                    <p>CGPA: 8.5/10</p>
+                </div>
+            </div>
+            <div class="edu-card" data-aos="flip-up" data-aos-delay="300" data-tilt>
+                <div class="edu-icon">
+                    <i class="fas fa-school"></i>
+                </div>
+                <h3>Lokmanya Jr. College</h3>
+                <p class="edu-degree">Higher Secondary Education</p>
+                <p class="edu-field">Science (PCM)</p>
+                <p class="edu-year">2019 - 2021</p>
+                <div class="edu-details">
+                    <p>Focused on Physics, Chemistry, and Mathematics</p>
+                    <p>Percentage: 85%</p>
+                </div>
+            </div>
+            <div class="edu-card" data-aos="flip-right" data-aos-delay="400" data-tilt>
+                <div class="edu-icon">
+                    <i class="fas fa-graduation-cap"></i>
+                </div>
+                <h3>Fairyland School</h3>
+                <p class="edu-degree">Secondary Education</p>
+                <p class="edu-field">General</p>
+                <p class="edu-year">2018 - 2019</p>
+                <div class="edu-details">
+                    <p>Completed with distinction</p>
+                    <p>Percentage: 90%</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects" class="projects section">
+        <div class="section-title" data-aos="fade-up">
+            <h2>My <span>Projects</span></h2>
+            <span class="title-bg">Projects</span>
+        </div>
+        <div class="projects-filter" data-aos="fade-up" data-aos-delay="200">
+            <button class="filter-btn active" data-filter="all">All</button>
+            <button class="filter-btn" data-filter="ai-ml">AI/ML</button>
+            <button class="filter-btn" data-filter="computer-vision">Computer Vision</button>
+            <button class="filter-btn" data-filter="robotics">Robotics</button>
+            <button class="filter-btn" data-filter="capstone">Capstone</button>
+        </div>
+        <div class="projects-container">
+            <div class="project-card" data-category="ai-ml" data-aos="zoom-in" data-aos-delay="200">
+                <div class="project-info">
+                    <h3>Classification Of Skin Disease Using Deep Learning</h3>
+                    <p>Fused three CNN Models to achieve better accuracy (Precision Score). Implemented transfer learning techniques to improve model performance.</p>
+                    <div class="project-tags">
+                        <span>Deep Learning</span>
+                        <span>CNN</span>
+                        <span>Healthcare</span>
+                    </div>
+                    <a href="https://github.com/Prathmesh5332/Classification-of-Skin-Disease-Using-Fusin-Models" target="_blank" class="github-link" rel="noopener noreferrer">
+                        <i class="fab fa-github"></i> View on GitHub
+                    </a>
+                </div>
+            </div>
+            <div class="project-card" data-category="computer-vision" data-aos="zoom-in" data-aos-delay="300">
+                <div class="project-info">
+                    <h3>Traffic Density Estimation</h3>
+                    <p>Developed an ML model to estimate traffic in a particular area. Used computer vision techniques to analyze traffic patterns and predict congestion.</p>
+                    <div class="project-tags">
+                        <span>Computer Vision</span>
+                        <span>Machine Learning</span>
+                        <span>Data Analysis</span>
+                    </div>
+                    <a href="https://github.com/Prathmesh5332/Traffic-Density-Estimation" target="_blank" class="github-link" rel="noopener noreferrer">
+                        <i class="fab fa-github"></i> View on GitHub
+                    </a>
+                </div>
+            </div>
+            <div class="project-card" data-category="robotics" data-aos="zoom-in" data-aos-delay="400">
+                <div class="project-info">
+                    <h3>Obstacle Avoiding Bot</h3>
+                    <p>Built a bot that finds its way through a maze without manual direction. Implemented sensors and algorithms to detect and navigate around obstacles.</p>
+                    <div class="project-tags">
+                        <span>Robotics</span>
+                        <span>Sensors</span>
+                        <span>Automation</span>
+                    </div>
+                    <a href="https://github.com/Prathmesh5332/Obstacle-Avoiding-Bot" target="_blank" class="github-link" rel="noopener noreferrer">
+                        <i class="fab fa-github"></i> View on GitHub
+                    </a>
+                </div>
+            </div>
+            <div class="project-card" data-category="computer-vision" data-aos="zoom-in" data-aos-delay="500">
+                <div class="project-info">
+                    <h3>Fruit Ninja Game Using OpenCV</h3>
+                    <p>Built a game using OpenCV that uses hand motion to pop fruits. Implemented hand tracking and gesture recognition to create an interactive gaming experience.</p>
+                    <div class="project-tags">
+                        <span>OpenCV</span>
+                        <span>Computer Vision</span>
+                        <span>Game Development</span>
+                    </div>
+                    <a href="https://github.com/Prathmesh5332/Fruit-Ninja-Game-Using-OpenCV" target="_blank" class="github-link"rel="noopener noreferrer">
+                        <i class="fab fa-github"></i> View on GitHub
+                    </a>
+                </div>
+            </div>
+            <div class="project-card" data-category="capstone" data-aos="zoom-in" data-aos-delay="600">
+                <div class="project-info">
+                    <h3>Medical Image Retrieval using Deep CNN</h3>
+                    <p>Developed a system for medical image retrieval using fusion of three CNN models (VGG16, ResNet152V2, DenseNet201) to achieve higher accuracy in disease classification and prediction.</p>
+                    <div class="project-tags">
+                        <span>Deep Learning</span>
+                        <span>Medical Imaging</span>
+                        <span>CNN</span>
+                    </div>
+                    <a href="https://github.com/Prathmesh5332/Medical-Image-Retrieval" target="_blank" class="github-link"rel="noopener noreferrer">
+                        <i class="fab fa-github"></i> View on GitHub
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Project Modal -->
+    <div class="project-modal" id="projectModal">
+        <div class="modal-content">
+            <span class="close-modal">&times;</span>
+            <div class="modal-body">
+                <div id="project1-content" class="modal-project-content">
+                    <h2>Classification Of Skin Disease Using Deep Learning</h2>
+                    <div class="modal-details">
+                        <h3>Project Overview</h3>
+                        <p>This project focuses on the classification of various skin diseases using deep learning techniques. By fusing three different CNN models, we achieved higher precision scores compared to individual models.</p>
+                        
+                        <h3>Technologies Used</h3>
+                        <ul>
+                            <li>Python</li>
+                            <li>TensorFlow/Keras</li>
+                            <li>Convolutional Neural Networks</li>
+                            <li>Transfer Learning</li>
+                            <li>Data Augmentation</li>
+                        </ul>
+                        
+                        <h3>Key Features</h3>
+                        <ul>
+                            <li>Multi-model fusion approach</li>
+                            <li>High precision in disease classification</li>
+                            <li>Robust to various image qualities</li>
+                            <li>User-friendly interface for medical professionals</li>
+                        </ul>
+                        
+                        <a href="https://github.com/Prathmesh5332/Classification-of-Skin-Disease-Using-Fusin-Models" target="_blank" class="btn primary-btn" rel="noopener noreferrer">
+                            <i class="fab fa-github"></i> View on GitHub
+                        </a>
+                    </div>
+                </div>
+                
+                <div id="project2-content" class="modal-project-content">
+                    <h2>Traffic Density Estimation</h2>
+                    <div class="modal-details">
+                        <h3>Project Overview</h3>
+                        <p>This project aims to estimate traffic density in specific areas using computer vision and machine learning techniques. The system analyzes traffic camera feeds to provide real-time density information.</p>
+                        
+                        <h3>Technologies Used</h3>
+                        <ul>
+                            <li>Python</li>
+                            <li>OpenCV</li>
+                            <li>Machine Learning</li>
+                            <li>Image Processing</li>
+                            <li>Data Visualization</li>
+                        </ul>
+                        
+                        <h3>Key Features</h3>
+                        <ul>
+                            <li>Real-time traffic analysis</li>
+                            <li>Vehicle counting and classification</li>
+                            <li>Density heat maps</li>
+                            <li>Predictive congestion alerts</li>
+                        </ul>
+                        
+                        <a href="https://github.com/Prathmesh5332/Traffic-Density-Estimation" target="_blank" class="btn primary-btn"rel="noopener noreferrer">
+                            <i class="fab fa-github"></i> View on GitHub
+                        </a>
+                    </div>
+                </div>
+                
+                <div id="project3-content" class="modal-project-content">
+                    <h2>Obstacle Avoiding Bot</h2>
+                    <div class="modal-details">
+                        <h3>Project Overview</h3>
+                        <p>This project involves building an autonomous robot capable of navigating through environments while avoiding obstacles. The bot uses sensors to detect objects and implements algorithms to find optimal paths.</p>
+                        
+                        <h3>Technologies Used</h3>
+                        <ul>
+                            <li>Arduino</li>
+                            <li>Ultrasonic Sensors</li>
+                            <li>Motor Controllers</li>
+                            <li>Path Planning Algorithms</li>
+                            <li>3D Printing</li>
+                        </ul>
+                        
+                        <h3>Key Features</h3>
+                        <ul>
+                            <li>Autonomous navigation</li>
+                            <li>Real-time obstacle detection</li>
+                            <li>Efficient path planning</li>
+                            <li>Low power consumption</li>
+                        </ul>
+                        
+                        <a href="https://github.com/Prathmesh5332/Obstacle-Avoiding-Bot" target="_blank" class="btn primary-btn" rel="noopener noreferrer">
+                            <i class="fab fa-github"></i> View on GitHub
+                        </a>
+                    </div>
+                </div>
+                
+                <div id="project4-content" class="modal-project-content">
+                    <h2>Fruit Ninja Game Using OpenCV</h2>
+                    <div class="modal-details">
+                        <h3>Project Overview</h3>
+                        <p>This project recreates the popular Fruit Ninja game using computer vision techniques. Players can use hand movements to slice virtual fruits that appear on the screen, creating an interactive gaming experience.</p>
+                        
+                        <h3>Technologies Used</h3>
+                        <ul>
+                            <li>Python</li>
+                            <li>OpenCV</li>
+                            <li>Hand Tracking</li>
+                            <li>Gesture Recognition</li>
+                            <li>Game Physics</li>
+                        </ul>
+                        
+                        <h3>Key Features</h3>
+                        <ul>
+                            <li>Real-time hand tracking</li>
+                            <li>Dynamic fruit generation</li>
+                            <li>Score tracking system</li>
+                            <li>Special power-ups and bonuses</li>
+                        </ul>
+                        
+                        <a href="https://github.com/Prathmesh5332/Fruit-Ninja-Game-Using-OpenCV" target="_blank" class="btn primary-btn" rel="noopener noreferrer">
+                            <i class="fab fa-github"></i> View on GitHub
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact section">
+        <div class="section-title" data-aos="fade-up">
+            <h2>Contact <span>Me</span></h2>
+            <span class="title-bg">Contact</span>
+        </div>
+        <div class="contact-content">
+            <div class="contact-info" data-aos="fade-right" data-aos-delay="200">
+                <h3>Let's Connect</h3>
+                <p>Feel free to reach out to me for any opportunities, collaborations, or just to say hello!</p>
+                <div class="info-item">
+                    <div class="icon">
+                        <i class="fas fa-map-marker-alt"></i>
+                    </div>
+                    <div>
+                        <h4>Location</h4>
+                        <p>Pune, Maharashtra, India</p>
+                    </div>
+                </div>
+                <div class="info-item">
+                    <div class="icon">
+                        <i class="fas fa-envelope"></i>
+                    </div>
+                    <div>
+                        <h4>Email</h4>
+                        <p>prathmesh@example.com</p>
+                    </div>
+                </div>
+                <div class="info-item">
+                    <div class="icon">
+                        <i class="fas fa-phone"></i>
+                    </div>
+                    <div>
+                        <h4>Phone</h4>
+                        <p>+91 7774966903</p>
+                    </div>
+                </div>
+                <div class="social-links">
+                    <a href="https://github.com/Prathmesh5332" target="_blank" class="social-link" rel="noopener noreferrer"><i class="fab fa-github"></i></a>
+                    <a href="https://linkedin.com/" target="_blank" class="social-link" rel="noopener noreferrer"><i class="fab fa-linkedin-in"></i></a>
+                    <a href="https://twitter.com/" target="_blank" class="social-link" rel="noopener noreferrer"><i class="fab fa-twitter"></i></a>
+                    <a href="https://instagram.com/" target="_blank" class="social-link" rel="noopener noreferrer"><i class="fab fa-instagram"></i></a>
+                </div>
+            </div>
+            <div class="contact-form" data-aos="fade-left" data-aos-delay="300">
+                <form id="contactForm">
+                    <div class="form-group">
+                        <input type="text" id="name" name="name" placeholder="Your Name" required>
+                        <span class="form-line"></span>
+                    </div>
+                    <div class="form-group">
+                        <input type="email" id="email" name="email" placeholder="Your Email" required>
+                        <span class="form-line"></span>
+                    </div>
+                    <div class="form-group">
+                        <input type="text" id="subject" name="subject" placeholder="Subject" required>
+                        <span class="form-line"></span>
+                    </div>
+                    <div class="form-group">
+                        <textarea id="message" name="message" placeholder="Your Message" required></textarea>
+                        <span class="form-line"></span>
+                    </div>
+                    <button type="submit" class="btn primary-btn">
+                        <span>Send Message</span>
+                        <i class="fas fa-paper-plane"></i>
+                    </button>
+                </form>
+                <div id="formStatus" class="form-status"></div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="footer-content">
+            <div class="footer-logo">
+                <span>P</span>ortfolio
+            </div>
+            <p>© 2023 Prathmesh Satpute. All rights reserved.</p>
+            <div class="footer-nav">
+                <a href="#home">Home</a>
+                <a href="#about">About</a>
+                <a href="#skills">Skills</a>
+                <a href="#projects">Projects</a>
+                <a href="#contact">Contact</a>
+            </div>
+            <div class="footer-social">
+                <a href="https://github.com/Prathmesh5332" target="_blank" rel="noopener noreferrer"><i class="fab fa-github"></i></a>
+                <a href="https://linkedin.com/" target="_blank" rel="noopener noreferrer"><i class="fab fa-linkedin-in"></i></a>
+                <a href="mailto:prathmesh@example.com" rel="noopener noreferrer"><i class="fas fa-envelope"></i></a>
+                <a href="https://twitter.com/" target="_blank"rel="noopener noreferrer"><i class="fab fa-twitter"></i></a>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>Designed with <i class="fas fa-heart"></i> by Prathmesh Satpute</p>
+        </div>
+    </footer>
+
+    <!-- Back to Top Button -->
+    <a href="#home" class="back-to-top" rel="noopener noreferrer">
+        <i class="fas fa-arrow-up"></i>
+    </a>
+
+    <!-- Scripts -->
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/particles.js@2.0.0/particles.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/vanilla-tilt@1.7.0/dist/vanilla-tilt.min.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
